@@ -71,16 +71,72 @@
 	
 
 	
+	<scene name="scene_a-cartoon-of-a-pond-with-trees-and-a-house-rbnpdoyp" title="a-cartoon-of-a-pond-with-trees-and-a-house-rbnpdoyp" onstart="" thumburl="panos/a-cartoon-of-a-pond-with-trees-and-a-house-rbnpdoyp.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-34.731" vlookat="16.607" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/a-cartoon-of-a-pond-with-trees-and-a-house-rbnpdoyp.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/a-cartoon-of-a-pond-with-trees-and-a-house-rbnpdoyp.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
 	<scene name="scene_a-cartoon-of-a-pool-and-a-building-with-a-bridge-and-trees-khpxgmnk" title="a-cartoon-of-a-pool-and-a-building-with-a-bridge-and-trees-khpxgmnk" onstart="" thumburl="panos/a-cartoon-of-a-pool-and-a-building-with-a-bridge-and-trees-khpxgmnk.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.000" vlookat="0.000" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/a-cartoon-of-a-pool-and-a-building-with-a-bridge-and-trees-khpxgmnk.tiles/preview.jpg" />
 
 		<image>
 			<cube url="panos/a-cartoon-of-a-pool-and-a-building-with-a-bridge-and-trees-khpxgmnk.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_a-landscape-with-trees-and-bushes-s7ha2pzi" title="a-landscape-with-trees-and-bushes-s7ha2pzi" onstart="" thumburl="panos/a-landscape-with-trees-and-bushes-s7ha2pzi.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/a-landscape-with-trees-and-bushes-s7ha2pzi.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/a-landscape-with-trees-and-bushes-s7ha2pzi.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1280,2624" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_a-room-with-a-bed-and-a-desk-scw8wmr6" title="a-room-with-a-bed-and-a-desk-scw8wmr6" onstart="" thumburl="panos/a-room-with-a-bed-and-a-desk-scw8wmr6.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/a-room-with-a-bed-and-a-desk-scw8wmr6.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/a-room-with-a-bed-and-a-desk-scw8wmr6.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_a-water-fountain-in-a-mountainous-region-knzkeodj" title="a-water-fountain-in-a-mountainous-region-knzkeodj" onstart="" thumburl="panos/a-water-fountain-in-a-mountainous-region-knzkeodj.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/a-water-fountain-in-a-mountainous-region-knzkeodj.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/a-water-fountain-in-a-mountainous-region-knzkeodj.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048" />
 		</image>
 
 	</scene>

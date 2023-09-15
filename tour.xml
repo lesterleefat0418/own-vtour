@@ -1,6 +1,7 @@
 ﻿<krpano version="1.21" title="Virtual Tour">
 
 	<include url="skin/vtourskin.xml" />
+	<include url="plugins/youtubePlayer.xml" />
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="false"
@@ -86,6 +87,13 @@
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="-126.793" atv="8.989" linkedscene="scene_a-cartoon-of-a-pool-and-a-building-with-a-bridge-and-trees-khpxgmnk" linkedscene_hoffset="0.0" use3dtransition="true" />
 		<hotspot name="spot2" style="skin_hotspotstyle" ath="-58.586" atv="2.878" linkedscene="scene_a-landscape-with-trees-and-bushes-s7ha2pzi" linkedscene_hoffset="0.0" use3dtransition="true" />
 
+		<hotspot name="youtubespot"
+					url="skin/youtube_logo.png"
+					scale="0.1"
+					zoom="true"
+					ath="-90" atv="2.878"
+					onclick="looktohotspot(get(name),90); youtubeplayer_open('ski8DLcpssY?si=BkFpe_-JLIhbXNI9');"
+					/>
 	</scene>
 
 	<scene name="scene_a-cartoon-of-a-pool-and-a-building-with-a-bridge-and-trees-khpxgmnk" title="a-cartoon-of-a-pool-and-a-building-with-a-bridge-and-trees-khpxgmnk" onstart="" thumburl="panos/a-cartoon-of-a-pool-and-a-building-with-a-bridge-and-trees-khpxgmnk.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
